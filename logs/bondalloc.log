@@ -1,0 +1,877 @@
+2025-02-01 00:14:52,294 - root - INFO - Loading sample universe
+2025-02-01 00:14:52,312 - root - INFO - Loading bond universe from file: C:\Users\nidal\PycharmProjects\BondSuite\data\sample_universe_expanded.csv
+2025-02-01 00:14:52,319 - root - INFO - Successfully loaded 51 rows from file
+2025-02-01 00:14:52,378 - root - INFO - Successfully created 51 bond objects
+2025-02-01 00:15:00,392 - root - INFO - Loading sample universe
+2025-02-01 00:15:00,397 - root - INFO - Loading bond universe from file: C:\Users\nidal\PycharmProjects\BondSuite\data\sample_universe_expanded.csv
+2025-02-01 00:15:00,398 - root - INFO - Successfully loaded 51 rows from file
+2025-02-01 00:15:00,500 - root - INFO - Successfully created 51 bond objects
+2025-02-01 00:15:00,743 - app.optimization.engine - INFO - Initializing optimizer with 51 bonds
+2025-02-01 00:15:00,743 - app.optimization.engine - INFO - Starting optimization
+2025-02-01 00:15:00,744 - app.optimization.engine - INFO - Setting up optimization variables
+2025-02-01 00:15:00,745 - app.optimization.engine - INFO - Setting up optimization objective
+2025-02-01 00:15:00,746 - app.optimization.engine - INFO - Objective created with 51 components
+2025-02-01 00:15:00,746 - app.optimization.engine - INFO - Setting up optimization constraints
+2025-02-01 00:15:00,746 - app.optimization.engine - INFO - Adding portfolio weight constraints
+2025-02-01 00:15:00,746 - app.optimization.engine - INFO - Adding duration constraints: target=3.00, tolerance=0.50
+2025-02-01 00:15:00,751 - app.optimization.engine - INFO - Universe duration range: min=1.30, max=6.50
+2025-02-01 00:15:00,754 - app.optimization.engine - INFO - Adding rating constraints: min=BB-, max=B
+2025-02-01 00:15:00,756 - app.optimization.engine - INFO - Universe rating range: min=AAA, max=D
+2025-02-01 00:15:00,756 - app.optimization.engine - INFO - Adding minimum yield constraint: 4.00%
+2025-02-01 00:15:00,758 - app.optimization.engine - INFO - Universe yield range: min=3.70%, max=30.00%
+2025-02-01 00:15:00,759 - app.optimization.engine - INFO - Adding security count constraints: min=1, max=20
+2025-02-01 00:15:00,761 - app.optimization.engine - INFO - Adding position size constraints: min=1.00%, max=10.00%
+2025-02-01 00:15:00,803 - app.optimization.engine - INFO - Adding issuer exposure constraint: max=20.00%
+2025-02-01 00:15:00,807 - app.optimization.engine - INFO - Found 47 unique issuers in universe
+2025-02-01 00:15:00,807 - app.optimization.engine - INFO - Issuer KBC Group: 1 bonds available
+2025-02-01 00:15:00,809 - app.optimization.engine - INFO - Issuer Sasol: 1 bonds available
+2025-02-01 00:15:00,810 - app.optimization.engine - INFO - Issuer Total SE: 1 bonds available
+2025-02-01 00:15:00,810 - app.optimization.engine - INFO - Issuer JP Morgan Chase: 1 bonds available
+2025-02-01 00:15:00,810 - app.optimization.engine - INFO - Issuer Procter & Gamble: 1 bonds available
+2025-02-01 00:15:00,818 - app.optimization.engine - INFO - Issuer Nestle: 1 bonds available
+2025-02-01 00:15:00,821 - app.optimization.engine - INFO - Issuer Microsoft: 1 bonds available
+2025-02-01 00:15:00,823 - app.optimization.engine - INFO - Issuer Turk Hava Yollari: 1 bonds available
+2025-02-01 00:15:00,824 - app.optimization.engine - INFO - Issuer PDVSA: 1 bonds available
+2025-02-01 00:15:00,824 - app.optimization.engine - INFO - Issuer Turk Telekom: 1 bonds available
+2025-02-01 00:15:00,824 - app.optimization.engine - INFO - Issuer Ceylon Petroleum: 1 bonds available
+2025-02-01 00:15:00,826 - app.optimization.engine - INFO - Issuer Pertamina: 1 bonds available
+2025-02-01 00:15:00,826 - app.optimization.engine - INFO - Issuer German Government: 1 bonds available
+2025-02-01 00:15:00,828 - app.optimization.engine - INFO - Issuer Petroecuador: 1 bonds available
+2025-02-01 00:15:00,828 - app.optimization.engine - INFO - Issuer Santander: 1 bonds available
+2025-02-01 00:15:00,828 - app.optimization.engine - INFO - Issuer Mitsubishi UFJ: 1 bonds available
+2025-02-01 00:15:00,828 - app.optimization.engine - INFO - Issuer Deutsche Bank: 1 bonds available
+2025-02-01 00:15:00,828 - app.optimization.engine - INFO - Issuer Enel: 1 bonds available
+2025-02-01 00:15:00,832 - app.optimization.engine - INFO - Issuer San Miguel: 1 bonds available
+2025-02-01 00:15:00,834 - app.optimization.engine - INFO - Issuer US Treasury: 3 bonds available
+2025-02-01 00:15:00,834 - app.optimization.engine - INFO - Issuer HSBC: 1 bonds available
+2025-02-01 00:15:00,835 - app.optimization.engine - INFO - Issuer Iberdrola: 1 bonds available
+2025-02-01 00:15:00,835 - app.optimization.engine - INFO - Issuer Intel: 1 bonds available
+2025-02-01 00:15:00,835 - app.optimization.engine - INFO - Issuer Telecom Italia: 1 bonds available
+2025-02-01 00:15:00,837 - app.optimization.engine - INFO - Issuer Petrobras: 1 bonds available
+2025-02-01 00:15:00,839 - app.optimization.engine - INFO - Issuer Nordea Bank: 1 bonds available
+2025-02-01 00:15:00,839 - app.optimization.engine - INFO - Issuer Banco Santander: 1 bonds available
+2025-02-01 00:15:00,841 - app.optimization.engine - INFO - Issuer Bank Mandiri: 1 bonds available
+2025-02-01 00:15:00,842 - app.optimization.engine - INFO - Issuer Freeport-McMoRan: 1 bonds available
+2025-02-01 00:15:00,843 - app.optimization.engine - INFO - Issuer Swiss Government: 1 bonds available
+2025-02-01 00:15:00,843 - app.optimization.engine - INFO - Issuer Intesa Sanpaolo: 1 bonds available
+2025-02-01 00:15:00,843 - app.optimization.engine - INFO - Issuer MTN Group: 1 bonds available
+2025-02-01 00:15:00,843 - app.optimization.engine - INFO - Issuer Electricite du Liban: 1 bonds available
+2025-02-01 00:15:00,843 - app.optimization.engine - INFO - Issuer Vingroup: 1 bonds available
+2025-02-01 00:15:00,843 - app.optimization.engine - INFO - Issuer Shell: 1 bonds available
+2025-02-01 00:15:00,850 - app.optimization.engine - INFO - Issuer UniCredit: 1 bonds available
+2025-02-01 00:15:00,850 - app.optimization.engine - INFO - Issuer OGDC: 1 bonds available
+2025-02-01 00:15:00,850 - app.optimization.engine - INFO - Issuer Vale: 1 bonds available
+2025-02-01 00:15:00,853 - app.optimization.engine - INFO - Issuer BNP Paribas: 2 bonds available
+2025-02-01 00:15:00,854 - app.optimization.engine - INFO - Issuer BP plc: 1 bonds available
+2025-02-01 00:15:00,856 - app.optimization.engine - INFO - Issuer YPF: 1 bonds available
+2025-02-01 00:15:00,857 - app.optimization.engine - INFO - Issuer Apple: 2 bonds available
+2025-02-01 00:15:00,859 - app.optimization.engine - INFO - Issuer General Motors: 1 bonds available
+2025-02-01 00:15:00,859 - app.optimization.engine - INFO - Issuer Gecamines: 1 bonds available
+2025-02-01 00:15:00,859 - app.optimization.engine - INFO - Issuer Renault: 1 bonds available
+2025-02-01 00:15:00,859 - app.optimization.engine - INFO - Issuer Pemex: 1 bonds available
+2025-02-01 00:15:00,860 - app.optimization.engine - INFO - Issuer Bayer: 1 bonds available
+2025-02-01 00:15:00,861 - app.optimization.engine - INFO - Processing High Yield constraints: min=0.0%, max=30.0%
+2025-02-01 00:15:00,861 - app.optimization.engine - INFO - Found 18 High Yield bonds in universe
+2025-02-01 00:15:00,861 - app.optimization.engine - INFO - Adding maximum High Yield constraint: 30.0%
+2025-02-01 00:15:00,861 - app.optimization.engine - INFO - Adding maximum High Yield position size constraint: 10.0%
+2025-02-01 00:15:00,865 - app.optimization.engine - INFO - Total number of constraints: 227
+2025-02-01 00:15:00,874 - app.optimization.solver_manager - INFO - Problem characteristics - Integer vars: True, Quadratic: True
+2025-02-01 00:15:00,874 - app.optimization.solver_manager - INFO - Attempting solution with SCIP
+2025-02-01 00:15:01,617 - app.optimization.solver_manager - INFO - Primary solver SCIP succeeded with status: optimal
+2025-02-01 00:15:01,626 - root - INFO - Optimization completed with status: optimal
+2025-02-01 00:15:02,467 - root - INFO - Starting PowerPoint presentation generation
+2025-02-01 00:15:02,523 - root - INFO - Created presentation with 16:9 aspect ratio
+2025-02-01 00:15:02,523 - root - INFO - Creating portfolio dataframe
+2025-02-01 00:15:02,527 - root - INFO - Created portfolio dataframe with 11 positions
+2025-02-01 00:15:02,528 - root - INFO - Generating Page 1: Portfolio Characteristics
+2025-02-01 00:15:02,538 - root - INFO - Creating characteristics table
+2025-02-01 00:15:02,546 - root - INFO - Creating payment rank distribution chart
+2025-02-01 00:15:02,558 - root - INFO - Creating rating distribution chart
+2025-02-01 00:15:02,578 - root - INFO - Generating Page 2: Geographic and Sector Analysis
+2025-02-01 00:15:02,582 - root - INFO - Creating country distribution chart
+2025-02-01 00:15:02,597 - root - INFO - Creating sector distribution chart
+2025-02-01 00:15:02,618 - root - INFO - Generating Page 3: Top Holdings
+2025-02-01 00:15:02,622 - root - INFO - Creating top 10 bonds table
+2025-02-01 00:15:02,663 - root - INFO - Creating top 10 issuers table
+2025-02-01 00:15:02,676 - root - INFO - Generating Page 4: Full Portfolio
+2025-02-01 00:15:02,682 - root - INFO - Creating full portfolio table
+2025-02-01 00:15:02,743 - root - INFO - Saving presentation to bytes
+2025-02-01 00:15:19,258 - root - INFO - Loading sample universe
+2025-02-01 00:15:19,258 - root - INFO - Loading bond universe from file: C:\Users\nidal\PycharmProjects\BondSuite\data\sample_universe_expanded.csv
+2025-02-01 00:15:19,262 - root - INFO - Successfully loaded 51 rows from file
+2025-02-01 00:15:19,308 - root - INFO - Successfully created 51 bond objects
+2025-02-01 00:15:23,907 - root - INFO - Loading sample universe
+2025-02-01 00:15:23,908 - root - INFO - Loading bond universe from file: C:\Users\nidal\PycharmProjects\BondSuite\data\sample_universe_expanded.csv
+2025-02-01 00:15:23,917 - root - INFO - Successfully loaded 51 rows from file
+2025-02-01 00:15:24,012 - root - INFO - Successfully created 51 bond objects
+2025-02-01 00:15:24,287 - app.optimization.engine - INFO - Initializing optimizer with 51 bonds
+2025-02-01 00:15:24,288 - app.optimization.engine - INFO - Starting optimization
+2025-02-01 00:15:24,289 - app.optimization.engine - INFO - Setting up optimization variables
+2025-02-01 00:15:24,290 - app.optimization.engine - INFO - Setting up optimization objective
+2025-02-01 00:15:24,292 - app.optimization.engine - INFO - Objective created with 51 components
+2025-02-01 00:15:24,292 - app.optimization.engine - INFO - Setting up optimization constraints
+2025-02-01 00:15:24,293 - app.optimization.engine - INFO - Adding portfolio weight constraints
+2025-02-01 00:15:24,293 - app.optimization.engine - INFO - Adding duration constraints: target=3.00, tolerance=0.50
+2025-02-01 00:15:24,293 - app.optimization.engine - INFO - Universe duration range: min=1.30, max=6.50
+2025-02-01 00:15:24,293 - app.optimization.engine - INFO - Adding rating constraints: min=BB-, max=B
+2025-02-01 00:15:24,300 - app.optimization.engine - INFO - Universe rating range: min=AAA, max=D
+2025-02-01 00:15:24,301 - app.optimization.engine - INFO - Adding minimum yield constraint: 4.00%
+2025-02-01 00:15:24,303 - app.optimization.engine - INFO - Universe yield range: min=3.70%, max=30.00%
+2025-02-01 00:15:24,304 - app.optimization.engine - INFO - Adding security count constraints: min=1, max=20
+2025-02-01 00:15:24,305 - app.optimization.engine - INFO - Adding position size constraints: min=1.00%, max=10.00%
+2025-02-01 00:15:24,354 - app.optimization.engine - INFO - Adding issuer exposure constraint: max=20.00%
+2025-02-01 00:15:24,354 - app.optimization.engine - INFO - Found 47 unique issuers in universe
+2025-02-01 00:15:24,357 - app.optimization.engine - INFO - Issuer KBC Group: 1 bonds available
+2025-02-01 00:15:24,357 - app.optimization.engine - INFO - Issuer Sasol: 1 bonds available
+2025-02-01 00:15:24,359 - app.optimization.engine - INFO - Issuer Total SE: 1 bonds available
+2025-02-01 00:15:24,359 - app.optimization.engine - INFO - Issuer JP Morgan Chase: 1 bonds available
+2025-02-01 00:15:24,359 - app.optimization.engine - INFO - Issuer Procter & Gamble: 1 bonds available
+2025-02-01 00:15:24,359 - app.optimization.engine - INFO - Issuer Nestle: 1 bonds available
+2025-02-01 00:15:24,359 - app.optimization.engine - INFO - Issuer Microsoft: 1 bonds available
+2025-02-01 00:15:24,359 - app.optimization.engine - INFO - Issuer Turk Hava Yollari: 1 bonds available
+2025-02-01 00:15:24,367 - app.optimization.engine - INFO - Issuer PDVSA: 1 bonds available
+2025-02-01 00:15:24,368 - app.optimization.engine - INFO - Issuer Turk Telekom: 1 bonds available
+2025-02-01 00:15:24,370 - app.optimization.engine - INFO - Issuer Ceylon Petroleum: 1 bonds available
+2025-02-01 00:15:24,370 - app.optimization.engine - INFO - Issuer Pertamina: 1 bonds available
+2025-02-01 00:15:24,372 - app.optimization.engine - INFO - Issuer German Government: 1 bonds available
+2025-02-01 00:15:24,373 - app.optimization.engine - INFO - Issuer Petroecuador: 1 bonds available
+2025-02-01 00:15:24,373 - app.optimization.engine - INFO - Issuer Santander: 1 bonds available
+2025-02-01 00:15:24,376 - app.optimization.engine - INFO - Issuer Mitsubishi UFJ: 1 bonds available
+2025-02-01 00:15:24,376 - app.optimization.engine - INFO - Issuer Deutsche Bank: 1 bonds available
+2025-02-01 00:15:24,378 - app.optimization.engine - INFO - Issuer Enel: 1 bonds available
+2025-02-01 00:15:24,378 - app.optimization.engine - INFO - Issuer San Miguel: 1 bonds available
+2025-02-01 00:15:24,379 - app.optimization.engine - INFO - Issuer US Treasury: 3 bonds available
+2025-02-01 00:15:24,380 - app.optimization.engine - INFO - Issuer HSBC: 1 bonds available
+2025-02-01 00:15:24,380 - app.optimization.engine - INFO - Issuer Iberdrola: 1 bonds available
+2025-02-01 00:15:24,380 - app.optimization.engine - INFO - Issuer Intel: 1 bonds available
+2025-02-01 00:15:24,382 - app.optimization.engine - INFO - Issuer Telecom Italia: 1 bonds available
+2025-02-01 00:15:24,382 - app.optimization.engine - INFO - Issuer Petrobras: 1 bonds available
+2025-02-01 00:15:24,383 - app.optimization.engine - INFO - Issuer Nordea Bank: 1 bonds available
+2025-02-01 00:15:24,384 - app.optimization.engine - INFO - Issuer Banco Santander: 1 bonds available
+2025-02-01 00:15:24,385 - app.optimization.engine - INFO - Issuer Bank Mandiri: 1 bonds available
+2025-02-01 00:15:24,387 - app.optimization.engine - INFO - Issuer Freeport-McMoRan: 1 bonds available
+2025-02-01 00:15:24,387 - app.optimization.engine - INFO - Issuer Swiss Government: 1 bonds available
+2025-02-01 00:15:24,387 - app.optimization.engine - INFO - Issuer Intesa Sanpaolo: 1 bonds available
+2025-02-01 00:15:24,390 - app.optimization.engine - INFO - Issuer MTN Group: 1 bonds available
+2025-02-01 00:15:24,391 - app.optimization.engine - INFO - Issuer Electricite du Liban: 1 bonds available
+2025-02-01 00:15:24,391 - app.optimization.engine - INFO - Issuer Vingroup: 1 bonds available
+2025-02-01 00:15:24,392 - app.optimization.engine - INFO - Issuer Shell: 1 bonds available
+2025-02-01 00:15:24,393 - app.optimization.engine - INFO - Issuer UniCredit: 1 bonds available
+2025-02-01 00:15:24,393 - app.optimization.engine - INFO - Issuer OGDC: 1 bonds available
+2025-02-01 00:15:24,393 - app.optimization.engine - INFO - Issuer Vale: 1 bonds available
+2025-02-01 00:15:24,393 - app.optimization.engine - INFO - Issuer BNP Paribas: 2 bonds available
+2025-02-01 00:15:24,393 - app.optimization.engine - INFO - Issuer BP plc: 1 bonds available
+2025-02-01 00:15:24,393 - app.optimization.engine - INFO - Issuer YPF: 1 bonds available
+2025-02-01 00:15:24,393 - app.optimization.engine - INFO - Issuer Apple: 2 bonds available
+2025-02-01 00:15:24,393 - app.optimization.engine - INFO - Issuer General Motors: 1 bonds available
+2025-02-01 00:15:24,393 - app.optimization.engine - INFO - Issuer Gecamines: 1 bonds available
+2025-02-01 00:15:24,404 - app.optimization.engine - INFO - Issuer Renault: 1 bonds available
+2025-02-01 00:15:24,404 - app.optimization.engine - INFO - Issuer Pemex: 1 bonds available
+2025-02-01 00:15:24,406 - app.optimization.engine - INFO - Issuer Bayer: 1 bonds available
+2025-02-01 00:15:24,408 - app.optimization.engine - INFO - Processing High Yield constraints: min=0.0%, max=30.0%
+2025-02-01 00:15:24,408 - app.optimization.engine - INFO - Found 18 High Yield bonds in universe
+2025-02-01 00:15:24,408 - app.optimization.engine - INFO - Adding maximum High Yield constraint: 30.0%
+2025-02-01 00:15:24,408 - app.optimization.engine - INFO - Adding maximum High Yield position size constraint: 10.0%
+2025-02-01 00:15:24,408 - app.optimization.engine - INFO - Total number of constraints: 227
+2025-02-01 00:15:24,422 - app.optimization.solver_manager - INFO - Problem characteristics - Integer vars: True, Quadratic: True
+2025-02-01 00:15:24,426 - app.optimization.solver_manager - INFO - Attempting solution with SCIP
+2025-02-01 00:15:24,997 - app.optimization.solver_manager - INFO - Primary solver SCIP succeeded with status: optimal
+2025-02-01 00:15:25,007 - root - INFO - Optimization completed with status: optimal
+2025-02-01 00:15:25,287 - root - INFO - Starting PowerPoint presentation generation
+2025-02-01 00:15:25,322 - root - INFO - Created presentation with 16:9 aspect ratio
+2025-02-01 00:15:25,322 - root - INFO - Creating portfolio dataframe
+2025-02-01 00:15:25,326 - root - INFO - Created portfolio dataframe with 11 positions
+2025-02-01 00:15:25,328 - root - INFO - Generating Page 1: Portfolio Characteristics
+2025-02-01 00:15:25,335 - root - INFO - Creating characteristics table
+2025-02-01 00:15:25,343 - root - INFO - Creating payment rank distribution chart
+2025-02-01 00:15:25,353 - root - INFO - Creating rating distribution chart
+2025-02-01 00:15:25,388 - root - INFO - Generating Page 2: Geographic and Sector Analysis
+2025-02-01 00:15:25,392 - root - INFO - Creating country distribution chart
+2025-02-01 00:15:25,410 - root - INFO - Creating sector distribution chart
+2025-02-01 00:15:25,437 - root - INFO - Generating Page 3: Top Holdings
+2025-02-01 00:15:25,443 - root - INFO - Creating top 10 bonds table
+2025-02-01 00:15:25,468 - root - INFO - Creating top 10 issuers table
+2025-02-01 00:15:25,485 - root - INFO - Generating Page 4: Full Portfolio
+2025-02-01 00:15:25,492 - root - INFO - Creating full portfolio table
+2025-02-01 00:15:25,539 - root - INFO - Saving presentation to bytes
+2025-02-01 00:17:13,195 - __main__ - ERROR - Error processing file: could not convert string to float: 'AA'
+2025-02-01 00:26:47,024 - root - INFO - Loading sample universe
+2025-02-01 00:26:47,026 - root - INFO - Loading bond universe from file: C:\Users\nidal\PycharmProjects\BondSuite\data\sample_universe_expanded.csv
+2025-02-01 00:26:47,032 - root - INFO - Successfully loaded 51 rows from file
+2025-02-01 00:26:47,130 - root - INFO - Successfully created 51 bond objects
+2025-02-01 00:27:12,920 - root - INFO - Loading sample universe
+2025-02-01 00:27:12,923 - root - INFO - Loading bond universe from file: C:\Users\nidal\PycharmProjects\BondSuite\data\sample_universe_expanded.csv
+2025-02-01 00:27:12,928 - root - INFO - Successfully loaded 51 rows from file
+2025-02-01 00:27:13,020 - root - INFO - Successfully created 51 bond objects
+2025-02-01 00:27:19,893 - root - INFO - Loading sample universe
+2025-02-01 00:27:19,895 - root - INFO - Loading bond universe from file: C:\Users\nidal\PycharmProjects\BondSuite\data\sample_universe_expanded.csv
+2025-02-01 00:27:19,899 - root - INFO - Successfully loaded 51 rows from file
+2025-02-01 00:27:19,984 - root - INFO - Successfully created 51 bond objects
+2025-02-01 00:27:20,272 - app.optimization.engine - INFO - Initializing optimizer with 51 bonds
+2025-02-01 00:27:20,272 - app.optimization.engine - INFO - Starting optimization
+2025-02-01 00:27:20,272 - app.optimization.engine - INFO - Setting up optimization variables
+2025-02-01 00:27:20,272 - app.optimization.engine - INFO - Setting up optimization objective
+2025-02-01 00:27:20,276 - app.optimization.engine - INFO - Objective created with 51 components
+2025-02-01 00:27:20,276 - app.optimization.engine - INFO - Setting up optimization constraints
+2025-02-01 00:27:20,276 - app.optimization.engine - INFO - Adding portfolio weight constraints
+2025-02-01 00:27:20,278 - app.optimization.engine - INFO - Adding duration constraints: target=3.00, tolerance=0.50
+2025-02-01 00:27:20,280 - app.optimization.engine - INFO - Universe duration range: min=1.30, max=6.50
+2025-02-01 00:27:20,280 - app.optimization.engine - INFO - Adding rating constraints: min=BB-, max=B
+2025-02-01 00:27:20,282 - app.optimization.engine - INFO - Universe rating range: min=AAA, max=D
+2025-02-01 00:27:20,284 - app.optimization.engine - INFO - Adding minimum yield constraint: 4.00%
+2025-02-01 00:27:20,285 - app.optimization.engine - INFO - Universe yield range: min=3.70%, max=30.00%
+2025-02-01 00:27:20,287 - app.optimization.engine - INFO - Adding security count constraints: min=1, max=20
+2025-02-01 00:27:20,287 - app.optimization.engine - INFO - Adding position size constraints: min=1.00%, max=10.00%
+2025-02-01 00:27:20,339 - app.optimization.engine - INFO - Adding issuer exposure constraint: max=20.00%
+2025-02-01 00:27:20,342 - app.optimization.engine - INFO - Found 47 unique issuers in universe
+2025-02-01 00:27:20,343 - app.optimization.engine - INFO - Issuer KBC Group: 1 bonds available
+2025-02-01 00:27:20,343 - app.optimization.engine - INFO - Issuer Sasol: 1 bonds available
+2025-02-01 00:27:20,343 - app.optimization.engine - INFO - Issuer Total SE: 1 bonds available
+2025-02-01 00:27:20,343 - app.optimization.engine - INFO - Issuer JP Morgan Chase: 1 bonds available
+2025-02-01 00:27:20,343 - app.optimization.engine - INFO - Issuer Procter & Gamble: 1 bonds available
+2025-02-01 00:27:20,343 - app.optimization.engine - INFO - Issuer Nestle: 1 bonds available
+2025-02-01 00:27:20,343 - app.optimization.engine - INFO - Issuer Microsoft: 1 bonds available
+2025-02-01 00:27:20,343 - app.optimization.engine - INFO - Issuer Turk Hava Yollari: 1 bonds available
+2025-02-01 00:27:20,343 - app.optimization.engine - INFO - Issuer PDVSA: 1 bonds available
+2025-02-01 00:27:20,343 - app.optimization.engine - INFO - Issuer Turk Telekom: 1 bonds available
+2025-02-01 00:27:20,343 - app.optimization.engine - INFO - Issuer Ceylon Petroleum: 1 bonds available
+2025-02-01 00:27:20,343 - app.optimization.engine - INFO - Issuer Pertamina: 1 bonds available
+2025-02-01 00:27:20,353 - app.optimization.engine - INFO - Issuer German Government: 1 bonds available
+2025-02-01 00:27:20,354 - app.optimization.engine - INFO - Issuer Petroecuador: 1 bonds available
+2025-02-01 00:27:20,355 - app.optimization.engine - INFO - Issuer Santander: 1 bonds available
+2025-02-01 00:27:20,356 - app.optimization.engine - INFO - Issuer Mitsubishi UFJ: 1 bonds available
+2025-02-01 00:27:20,358 - app.optimization.engine - INFO - Issuer Deutsche Bank: 1 bonds available
+2025-02-01 00:27:20,358 - app.optimization.engine - INFO - Issuer Enel: 1 bonds available
+2025-02-01 00:27:20,358 - app.optimization.engine - INFO - Issuer San Miguel: 1 bonds available
+2025-02-01 00:27:20,358 - app.optimization.engine - INFO - Issuer US Treasury: 3 bonds available
+2025-02-01 00:27:20,358 - app.optimization.engine - INFO - Issuer HSBC: 1 bonds available
+2025-02-01 00:27:20,358 - app.optimization.engine - INFO - Issuer Iberdrola: 1 bonds available
+2025-02-01 00:27:20,358 - app.optimization.engine - INFO - Issuer Intel: 1 bonds available
+2025-02-01 00:27:20,367 - app.optimization.engine - INFO - Issuer Telecom Italia: 1 bonds available
+2025-02-01 00:27:20,367 - app.optimization.engine - INFO - Issuer Petrobras: 1 bonds available
+2025-02-01 00:27:20,368 - app.optimization.engine - INFO - Issuer Nordea Bank: 1 bonds available
+2025-02-01 00:27:20,368 - app.optimization.engine - INFO - Issuer Banco Santander: 1 bonds available
+2025-02-01 00:27:20,370 - app.optimization.engine - INFO - Issuer Bank Mandiri: 1 bonds available
+2025-02-01 00:27:20,372 - app.optimization.engine - INFO - Issuer Freeport-McMoRan: 1 bonds available
+2025-02-01 00:27:20,372 - app.optimization.engine - INFO - Issuer Swiss Government: 1 bonds available
+2025-02-01 00:27:20,372 - app.optimization.engine - INFO - Issuer Intesa Sanpaolo: 1 bonds available
+2025-02-01 00:27:20,376 - app.optimization.engine - INFO - Issuer MTN Group: 1 bonds available
+2025-02-01 00:27:20,378 - app.optimization.engine - INFO - Issuer Electricite du Liban: 1 bonds available
+2025-02-01 00:27:20,378 - app.optimization.engine - INFO - Issuer Vingroup: 1 bonds available
+2025-02-01 00:27:20,381 - app.optimization.engine - INFO - Issuer Shell: 1 bonds available
+2025-02-01 00:27:20,382 - app.optimization.engine - INFO - Issuer UniCredit: 1 bonds available
+2025-02-01 00:27:20,384 - app.optimization.engine - INFO - Issuer OGDC: 1 bonds available
+2025-02-01 00:27:20,385 - app.optimization.engine - INFO - Issuer Vale: 1 bonds available
+2025-02-01 00:27:20,385 - app.optimization.engine - INFO - Issuer BNP Paribas: 2 bonds available
+2025-02-01 00:27:20,385 - app.optimization.engine - INFO - Issuer BP plc: 1 bonds available
+2025-02-01 00:27:20,387 - app.optimization.engine - INFO - Issuer YPF: 1 bonds available
+2025-02-01 00:27:20,389 - app.optimization.engine - INFO - Issuer Apple: 2 bonds available
+2025-02-01 00:27:20,389 - app.optimization.engine - INFO - Issuer General Motors: 1 bonds available
+2025-02-01 00:27:20,389 - app.optimization.engine - INFO - Issuer Gecamines: 1 bonds available
+2025-02-01 00:27:20,391 - app.optimization.engine - INFO - Issuer Renault: 1 bonds available
+2025-02-01 00:27:20,392 - app.optimization.engine - INFO - Issuer Pemex: 1 bonds available
+2025-02-01 00:27:20,392 - app.optimization.engine - INFO - Issuer Bayer: 1 bonds available
+2025-02-01 00:27:20,392 - app.optimization.engine - INFO - Processing High Yield constraints: min=0.0%, max=30.0%
+2025-02-01 00:27:20,392 - app.optimization.engine - INFO - Found 18 High Yield bonds in universe
+2025-02-01 00:27:20,392 - app.optimization.engine - INFO - Adding maximum High Yield constraint: 30.0%
+2025-02-01 00:27:20,397 - app.optimization.engine - INFO - Adding maximum High Yield position size constraint: 10.0%
+2025-02-01 00:27:20,397 - app.optimization.engine - INFO - Total number of constraints: 227
+2025-02-01 00:27:20,408 - app.optimization.solver_manager - INFO - Problem characteristics - Integer vars: True, Quadratic: True
+2025-02-01 00:27:20,408 - app.optimization.solver_manager - INFO - Attempting solution with SCIP
+2025-02-01 00:27:20,937 - app.optimization.solver_manager - INFO - Primary solver SCIP succeeded with status: optimal
+2025-02-01 00:27:20,943 - root - INFO - Optimization completed with status: optimal
+2025-02-01 00:27:21,209 - root - INFO - Starting PowerPoint presentation generation
+2025-02-01 00:27:21,226 - root - INFO - Created presentation with 16:9 aspect ratio
+2025-02-01 00:27:21,228 - root - INFO - Creating portfolio dataframe
+2025-02-01 00:27:21,230 - root - INFO - Created portfolio dataframe with 11 positions
+2025-02-01 00:27:21,230 - root - INFO - Generating Page 1: Portfolio Characteristics
+2025-02-01 00:27:21,238 - root - INFO - Creating characteristics table
+2025-02-01 00:27:21,247 - root - INFO - Creating payment rank distribution chart
+2025-02-01 00:27:21,259 - root - INFO - Creating rating distribution chart
+2025-02-01 00:27:21,270 - root - INFO - Generating Page 2: Geographic and Sector Analysis
+2025-02-01 00:27:21,276 - root - INFO - Creating country distribution chart
+2025-02-01 00:27:21,292 - root - INFO - Creating sector distribution chart
+2025-02-01 00:27:21,304 - root - INFO - Generating Page 3: Top Holdings
+2025-02-01 00:27:21,309 - root - INFO - Creating top 10 bonds table
+2025-02-01 00:27:21,334 - root - INFO - Creating top 10 issuers table
+2025-02-01 00:27:21,341 - root - INFO - Generating Page 4: Full Portfolio
+2025-02-01 00:27:21,343 - root - INFO - Creating full portfolio table
+2025-02-01 00:27:21,380 - root - INFO - Saving presentation to bytes
+2025-02-01 00:28:02,164 - root - INFO - Loading sample universe
+2025-02-01 00:28:02,166 - root - INFO - Loading bond universe from file: C:\Users\nidal\PycharmProjects\BondSuite\data\sample_universe_expanded.csv
+2025-02-01 00:28:02,170 - root - INFO - Successfully loaded 51 rows from file
+2025-02-01 00:28:02,243 - root - INFO - Successfully created 51 bond objects
+2025-02-01 00:28:06,445 - root - INFO - Loading sample universe
+2025-02-01 00:28:06,449 - root - INFO - Loading bond universe from file: C:\Users\nidal\PycharmProjects\BondSuite\data\sample_universe_expanded.csv
+2025-02-01 00:28:06,454 - root - INFO - Successfully loaded 51 rows from file
+2025-02-01 00:28:06,535 - root - INFO - Successfully created 51 bond objects
+2025-02-01 00:28:06,754 - app.optimization.engine - INFO - Initializing optimizer with 51 bonds
+2025-02-01 00:28:06,754 - app.optimization.engine - INFO - Starting optimization
+2025-02-01 00:28:06,754 - app.optimization.engine - INFO - Setting up optimization variables
+2025-02-01 00:28:06,757 - app.optimization.engine - INFO - Setting up optimization objective
+2025-02-01 00:28:06,758 - app.optimization.engine - INFO - Objective created with 51 components
+2025-02-01 00:28:06,759 - app.optimization.engine - INFO - Setting up optimization constraints
+2025-02-01 00:28:06,759 - app.optimization.engine - INFO - Adding portfolio weight constraints
+2025-02-01 00:28:06,759 - app.optimization.engine - INFO - Adding duration constraints: target=3.00, tolerance=0.50
+2025-02-01 00:28:06,759 - app.optimization.engine - INFO - Universe duration range: min=1.30, max=6.50
+2025-02-01 00:28:06,759 - app.optimization.engine - INFO - Adding rating constraints: min=BB-, max=B
+2025-02-01 00:28:06,759 - app.optimization.engine - INFO - Universe rating range: min=AAA, max=D
+2025-02-01 00:28:06,765 - app.optimization.engine - INFO - Adding minimum yield constraint: 4.00%
+2025-02-01 00:28:06,766 - app.optimization.engine - INFO - Universe yield range: min=3.70%, max=30.00%
+2025-02-01 00:28:06,767 - app.optimization.engine - INFO - Adding security count constraints: min=1, max=20
+2025-02-01 00:28:06,768 - app.optimization.engine - INFO - Adding position size constraints: min=1.00%, max=10.00%
+2025-02-01 00:28:06,823 - app.optimization.engine - INFO - Adding issuer exposure constraint: max=20.00%
+2025-02-01 00:28:06,823 - app.optimization.engine - INFO - Found 47 unique issuers in universe
+2025-02-01 00:28:06,826 - app.optimization.engine - INFO - Issuer KBC Group: 1 bonds available
+2025-02-01 00:28:06,827 - app.optimization.engine - INFO - Issuer Sasol: 1 bonds available
+2025-02-01 00:28:06,828 - app.optimization.engine - INFO - Issuer Total SE: 1 bonds available
+2025-02-01 00:28:06,829 - app.optimization.engine - INFO - Issuer JP Morgan Chase: 1 bonds available
+2025-02-01 00:28:06,829 - app.optimization.engine - INFO - Issuer Procter & Gamble: 1 bonds available
+2025-02-01 00:28:06,829 - app.optimization.engine - INFO - Issuer Nestle: 1 bonds available
+2025-02-01 00:28:06,832 - app.optimization.engine - INFO - Issuer Microsoft: 1 bonds available
+2025-02-01 00:28:06,834 - app.optimization.engine - INFO - Issuer Turk Hava Yollari: 1 bonds available
+2025-02-01 00:28:06,834 - app.optimization.engine - INFO - Issuer PDVSA: 1 bonds available
+2025-02-01 00:28:06,835 - app.optimization.engine - INFO - Issuer Turk Telekom: 1 bonds available
+2025-02-01 00:28:06,835 - app.optimization.engine - INFO - Issuer Ceylon Petroleum: 1 bonds available
+2025-02-01 00:28:06,835 - app.optimization.engine - INFO - Issuer Pertamina: 1 bonds available
+2025-02-01 00:28:06,837 - app.optimization.engine - INFO - Issuer German Government: 1 bonds available
+2025-02-01 00:28:06,837 - app.optimization.engine - INFO - Issuer Petroecuador: 1 bonds available
+2025-02-01 00:28:06,837 - app.optimization.engine - INFO - Issuer Santander: 1 bonds available
+2025-02-01 00:28:06,837 - app.optimization.engine - INFO - Issuer Mitsubishi UFJ: 1 bonds available
+2025-02-01 00:28:06,837 - app.optimization.engine - INFO - Issuer Deutsche Bank: 1 bonds available
+2025-02-01 00:28:06,837 - app.optimization.engine - INFO - Issuer Enel: 1 bonds available
+2025-02-01 00:28:06,837 - app.optimization.engine - INFO - Issuer San Miguel: 1 bonds available
+2025-02-01 00:28:06,837 - app.optimization.engine - INFO - Issuer US Treasury: 3 bonds available
+2025-02-01 00:28:06,842 - app.optimization.engine - INFO - Issuer HSBC: 1 bonds available
+2025-02-01 00:28:06,843 - app.optimization.engine - INFO - Issuer Iberdrola: 1 bonds available
+2025-02-01 00:28:06,843 - app.optimization.engine - INFO - Issuer Intel: 1 bonds available
+2025-02-01 00:28:06,843 - app.optimization.engine - INFO - Issuer Telecom Italia: 1 bonds available
+2025-02-01 00:28:06,843 - app.optimization.engine - INFO - Issuer Petrobras: 1 bonds available
+2025-02-01 00:28:06,843 - app.optimization.engine - INFO - Issuer Nordea Bank: 1 bonds available
+2025-02-01 00:28:06,843 - app.optimization.engine - INFO - Issuer Banco Santander: 1 bonds available
+2025-02-01 00:28:06,843 - app.optimization.engine - INFO - Issuer Bank Mandiri: 1 bonds available
+2025-02-01 00:28:06,843 - app.optimization.engine - INFO - Issuer Freeport-McMoRan: 1 bonds available
+2025-02-01 00:28:06,854 - app.optimization.engine - INFO - Issuer Swiss Government: 1 bonds available
+2025-02-01 00:28:06,854 - app.optimization.engine - INFO - Issuer Intesa Sanpaolo: 1 bonds available
+2025-02-01 00:28:06,854 - app.optimization.engine - INFO - Issuer MTN Group: 1 bonds available
+2025-02-01 00:28:06,859 - app.optimization.engine - INFO - Issuer Electricite du Liban: 1 bonds available
+2025-02-01 00:28:06,859 - app.optimization.engine - INFO - Issuer Vingroup: 1 bonds available
+2025-02-01 00:28:06,859 - app.optimization.engine - INFO - Issuer Shell: 1 bonds available
+2025-02-01 00:28:06,861 - app.optimization.engine - INFO - Issuer UniCredit: 1 bonds available
+2025-02-01 00:28:06,861 - app.optimization.engine - INFO - Issuer OGDC: 1 bonds available
+2025-02-01 00:28:06,865 - app.optimization.engine - INFO - Issuer Vale: 1 bonds available
+2025-02-01 00:28:06,866 - app.optimization.engine - INFO - Issuer BNP Paribas: 2 bonds available
+2025-02-01 00:28:06,867 - app.optimization.engine - INFO - Issuer BP plc: 1 bonds available
+2025-02-01 00:28:06,868 - app.optimization.engine - INFO - Issuer YPF: 1 bonds available
+2025-02-01 00:28:06,868 - app.optimization.engine - INFO - Issuer Apple: 2 bonds available
+2025-02-01 00:28:06,870 - app.optimization.engine - INFO - Issuer General Motors: 1 bonds available
+2025-02-01 00:28:06,872 - app.optimization.engine - INFO - Issuer Gecamines: 1 bonds available
+2025-02-01 00:28:06,873 - app.optimization.engine - INFO - Issuer Renault: 1 bonds available
+2025-02-01 00:28:06,874 - app.optimization.engine - INFO - Issuer Pemex: 1 bonds available
+2025-02-01 00:28:06,874 - app.optimization.engine - INFO - Issuer Bayer: 1 bonds available
+2025-02-01 00:28:06,876 - app.optimization.engine - INFO - Processing High Yield constraints: min=0.0%, max=30.0%
+2025-02-01 00:28:06,876 - app.optimization.engine - INFO - Found 18 High Yield bonds in universe
+2025-02-01 00:28:06,876 - app.optimization.engine - INFO - Adding maximum High Yield constraint: 30.0%
+2025-02-01 00:28:06,878 - app.optimization.engine - INFO - Adding maximum High Yield position size constraint: 10.0%
+2025-02-01 00:28:06,885 - app.optimization.engine - INFO - Total number of constraints: 227
+2025-02-01 00:28:06,893 - app.optimization.solver_manager - INFO - Problem characteristics - Integer vars: True, Quadratic: True
+2025-02-01 00:28:06,894 - app.optimization.solver_manager - INFO - Attempting solution with SCIP
+2025-02-01 00:28:07,387 - app.optimization.solver_manager - INFO - Primary solver SCIP succeeded with status: optimal
+2025-02-01 00:28:07,394 - root - INFO - Optimization completed with status: optimal
+2025-02-01 00:28:07,628 - root - INFO - Starting PowerPoint presentation generation
+2025-02-01 00:28:07,644 - root - INFO - Created presentation with 16:9 aspect ratio
+2025-02-01 00:28:07,650 - root - INFO - Creating portfolio dataframe
+2025-02-01 00:28:07,653 - root - INFO - Created portfolio dataframe with 11 positions
+2025-02-01 00:28:07,654 - root - INFO - Generating Page 1: Portfolio Characteristics
+2025-02-01 00:28:07,659 - root - INFO - Creating characteristics table
+2025-02-01 00:28:07,669 - root - INFO - Creating payment rank distribution chart
+2025-02-01 00:28:07,685 - root - INFO - Creating rating distribution chart
+2025-02-01 00:28:07,704 - root - INFO - Generating Page 2: Geographic and Sector Analysis
+2025-02-01 00:28:07,710 - root - INFO - Creating country distribution chart
+2025-02-01 00:28:07,726 - root - INFO - Creating sector distribution chart
+2025-02-01 00:28:07,737 - root - INFO - Generating Page 3: Top Holdings
+2025-02-01 00:28:07,737 - root - INFO - Creating top 10 bonds table
+2025-02-01 00:28:07,768 - root - INFO - Creating top 10 issuers table
+2025-02-01 00:28:07,785 - root - INFO - Generating Page 4: Full Portfolio
+2025-02-01 00:28:07,787 - root - INFO - Creating full portfolio table
+2025-02-01 00:28:07,837 - root - INFO - Saving presentation to bytes
+2025-02-01 00:32:01,236 - root - INFO - Loading sample universe
+2025-02-01 00:32:01,239 - root - INFO - Loading bond universe from file: C:\Users\nidal\PycharmProjects\BondSuite\data\sample_universe_expanded.csv
+2025-02-01 00:32:01,245 - root - INFO - Successfully loaded 51 rows from file
+2025-02-01 00:32:01,343 - root - INFO - Successfully created 51 bond objects
+2025-02-01 00:32:05,728 - root - INFO - Loading sample universe
+2025-02-01 00:32:05,733 - root - INFO - Loading bond universe from file: C:\Users\nidal\PycharmProjects\BondSuite\data\sample_universe_expanded.csv
+2025-02-01 00:32:05,738 - root - INFO - Successfully loaded 51 rows from file
+2025-02-01 00:32:05,829 - root - INFO - Successfully created 51 bond objects
+2025-02-01 00:32:06,067 - app.optimization.engine - INFO - Initializing optimizer with 51 bonds
+2025-02-01 00:32:06,067 - app.optimization.engine - INFO - Starting optimization
+2025-02-01 00:32:06,067 - app.optimization.engine - INFO - Setting up optimization variables
+2025-02-01 00:32:06,073 - app.optimization.engine - INFO - Setting up optimization objective
+2025-02-01 00:32:06,073 - app.optimization.engine - INFO - Objective created with 51 components
+2025-02-01 00:32:06,073 - app.optimization.engine - INFO - Setting up optimization constraints
+2025-02-01 00:32:06,073 - app.optimization.engine - INFO - Adding portfolio weight constraints
+2025-02-01 00:32:06,077 - app.optimization.engine - INFO - Adding duration constraints: target=3.00, tolerance=0.50
+2025-02-01 00:32:06,078 - app.optimization.engine - INFO - Universe duration range: min=1.30, max=6.50
+2025-02-01 00:32:06,078 - app.optimization.engine - INFO - Adding rating constraints: min=BB-, max=B
+2025-02-01 00:32:06,081 - app.optimization.engine - INFO - Universe rating range: min=AAA, max=D
+2025-02-01 00:32:06,082 - app.optimization.engine - INFO - Adding minimum yield constraint: 4.00%
+2025-02-01 00:32:06,083 - app.optimization.engine - INFO - Universe yield range: min=3.70%, max=30.00%
+2025-02-01 00:32:06,085 - app.optimization.engine - INFO - Adding security count constraints: min=1, max=20
+2025-02-01 00:32:06,085 - app.optimization.engine - INFO - Adding position size constraints: min=1.00%, max=10.00%
+2025-02-01 00:32:06,122 - app.optimization.engine - INFO - Adding issuer exposure constraint: max=20.00%
+2025-02-01 00:32:06,122 - app.optimization.engine - INFO - Found 47 unique issuers in universe
+2025-02-01 00:32:06,122 - app.optimization.engine - INFO - Issuer KBC Group: 1 bonds available
+2025-02-01 00:32:06,126 - app.optimization.engine - INFO - Issuer Sasol: 1 bonds available
+2025-02-01 00:32:06,128 - app.optimization.engine - INFO - Issuer Total SE: 1 bonds available
+2025-02-01 00:32:06,128 - app.optimization.engine - INFO - Issuer JP Morgan Chase: 1 bonds available
+2025-02-01 00:32:06,128 - app.optimization.engine - INFO - Issuer Procter & Gamble: 1 bonds available
+2025-02-01 00:32:06,128 - app.optimization.engine - INFO - Issuer Nestle: 1 bonds available
+2025-02-01 00:32:06,132 - app.optimization.engine - INFO - Issuer Microsoft: 1 bonds available
+2025-02-01 00:32:06,132 - app.optimization.engine - INFO - Issuer Turk Hava Yollari: 1 bonds available
+2025-02-01 00:32:06,134 - app.optimization.engine - INFO - Issuer PDVSA: 1 bonds available
+2025-02-01 00:32:06,135 - app.optimization.engine - INFO - Issuer Turk Telekom: 1 bonds available
+2025-02-01 00:32:06,135 - app.optimization.engine - INFO - Issuer Ceylon Petroleum: 1 bonds available
+2025-02-01 00:32:06,137 - app.optimization.engine - INFO - Issuer Pertamina: 1 bonds available
+2025-02-01 00:32:06,137 - app.optimization.engine - INFO - Issuer German Government: 1 bonds available
+2025-02-01 00:32:06,137 - app.optimization.engine - INFO - Issuer Petroecuador: 1 bonds available
+2025-02-01 00:32:06,137 - app.optimization.engine - INFO - Issuer Santander: 1 bonds available
+2025-02-01 00:32:06,137 - app.optimization.engine - INFO - Issuer Mitsubishi UFJ: 1 bonds available
+2025-02-01 00:32:06,141 - app.optimization.engine - INFO - Issuer Deutsche Bank: 1 bonds available
+2025-02-01 00:32:06,142 - app.optimization.engine - INFO - Issuer Enel: 1 bonds available
+2025-02-01 00:32:06,143 - app.optimization.engine - INFO - Issuer San Miguel: 1 bonds available
+2025-02-01 00:32:06,143 - app.optimization.engine - INFO - Issuer US Treasury: 3 bonds available
+2025-02-01 00:32:06,143 - app.optimization.engine - INFO - Issuer HSBC: 1 bonds available
+2025-02-01 00:32:06,143 - app.optimization.engine - INFO - Issuer Iberdrola: 1 bonds available
+2025-02-01 00:32:06,143 - app.optimization.engine - INFO - Issuer Intel: 1 bonds available
+2025-02-01 00:32:06,143 - app.optimization.engine - INFO - Issuer Telecom Italia: 1 bonds available
+2025-02-01 00:32:06,143 - app.optimization.engine - INFO - Issuer Petrobras: 1 bonds available
+2025-02-01 00:32:06,143 - app.optimization.engine - INFO - Issuer Nordea Bank: 1 bonds available
+2025-02-01 00:32:06,151 - app.optimization.engine - INFO - Issuer Banco Santander: 1 bonds available
+2025-02-01 00:32:06,151 - app.optimization.engine - INFO - Issuer Bank Mandiri: 1 bonds available
+2025-02-01 00:32:06,154 - app.optimization.engine - INFO - Issuer Freeport-McMoRan: 1 bonds available
+2025-02-01 00:32:06,154 - app.optimization.engine - INFO - Issuer Swiss Government: 1 bonds available
+2025-02-01 00:32:06,157 - app.optimization.engine - INFO - Issuer Intesa Sanpaolo: 1 bonds available
+2025-02-01 00:32:06,158 - app.optimization.engine - INFO - Issuer MTN Group: 1 bonds available
+2025-02-01 00:32:06,159 - app.optimization.engine - INFO - Issuer Electricite du Liban: 1 bonds available
+2025-02-01 00:32:06,159 - app.optimization.engine - INFO - Issuer Vingroup: 1 bonds available
+2025-02-01 00:32:06,161 - app.optimization.engine - INFO - Issuer Shell: 1 bonds available
+2025-02-01 00:32:06,161 - app.optimization.engine - INFO - Issuer UniCredit: 1 bonds available
+2025-02-01 00:32:06,161 - app.optimization.engine - INFO - Issuer OGDC: 1 bonds available
+2025-02-01 00:32:06,161 - app.optimization.engine - INFO - Issuer Vale: 1 bonds available
+2025-02-01 00:32:06,161 - app.optimization.engine - INFO - Issuer BNP Paribas: 2 bonds available
+2025-02-01 00:32:06,161 - app.optimization.engine - INFO - Issuer BP plc: 1 bonds available
+2025-02-01 00:32:06,167 - app.optimization.engine - INFO - Issuer YPF: 1 bonds available
+2025-02-01 00:32:06,167 - app.optimization.engine - INFO - Issuer Apple: 2 bonds available
+2025-02-01 00:32:06,168 - app.optimization.engine - INFO - Issuer General Motors: 1 bonds available
+2025-02-01 00:32:06,168 - app.optimization.engine - INFO - Issuer Gecamines: 1 bonds available
+2025-02-01 00:32:06,170 - app.optimization.engine - INFO - Issuer Renault: 1 bonds available
+2025-02-01 00:32:06,170 - app.optimization.engine - INFO - Issuer Pemex: 1 bonds available
+2025-02-01 00:32:06,170 - app.optimization.engine - INFO - Issuer Bayer: 1 bonds available
+2025-02-01 00:32:06,172 - app.optimization.engine - INFO - Processing High Yield constraints: min=0.0%, max=30.0%
+2025-02-01 00:32:06,172 - app.optimization.engine - INFO - Found 18 High Yield bonds in universe
+2025-02-01 00:32:06,172 - app.optimization.engine - INFO - Adding maximum High Yield constraint: 30.0%
+2025-02-01 00:32:06,172 - app.optimization.engine - INFO - Adding maximum High Yield position size constraint: 10.0%
+2025-02-01 00:32:06,178 - app.optimization.engine - INFO - Total number of constraints: 227
+2025-02-01 00:32:06,186 - app.optimization.solver_manager - INFO - Problem characteristics - Integer vars: True, Quadratic: True
+2025-02-01 00:32:06,187 - app.optimization.solver_manager - INFO - Attempting solution with SCIP
+2025-02-01 00:32:06,722 - app.optimization.solver_manager - INFO - Primary solver SCIP succeeded with status: optimal
+2025-02-01 00:32:06,729 - root - INFO - Optimization completed with status: optimal
+2025-02-01 00:32:06,996 - root - INFO - Starting PowerPoint presentation generation
+2025-02-01 00:32:07,029 - root - INFO - Created presentation with 16:9 aspect ratio
+2025-02-01 00:32:07,029 - root - INFO - Creating portfolio dataframe
+2025-02-01 00:32:07,032 - root - INFO - Created portfolio dataframe with 11 positions
+2025-02-01 00:32:07,032 - root - INFO - Generating Page 1: Portfolio Characteristics
+2025-02-01 00:32:07,037 - root - INFO - Creating characteristics table
+2025-02-01 00:32:07,044 - root - INFO - Creating payment rank distribution chart
+2025-02-01 00:32:07,061 - root - INFO - Creating rating distribution chart
+2025-02-01 00:32:07,084 - root - INFO - Generating Page 2: Geographic and Sector Analysis
+2025-02-01 00:32:07,089 - root - INFO - Creating country distribution chart
+2025-02-01 00:32:07,100 - root - INFO - Creating sector distribution chart
+2025-02-01 00:32:07,118 - root - INFO - Generating Page 3: Top Holdings
+2025-02-01 00:32:07,122 - root - INFO - Creating top 10 bonds table
+2025-02-01 00:32:07,161 - root - INFO - Creating top 10 issuers table
+2025-02-01 00:32:07,172 - root - INFO - Generating Page 4: Full Portfolio
+2025-02-01 00:32:07,172 - root - INFO - Creating full portfolio table
+2025-02-01 00:32:07,220 - root - INFO - Saving presentation to bytes
+2025-02-01 00:45:12,918 - __main__ - ERROR - Error loading portfolio: [Errno 2] No such file or directory: 'sample_portfolio.csv'
+2025-02-01 00:45:12,919 - __main__ - ERROR - Error processing file: [Errno 2] No such file or directory: 'sample_portfolio.csv'
+2025-02-01 00:45:18,241 - __main__ - ERROR - Error loading portfolio: [Errno 2] No such file or directory: 'sample_portfolio.csv'
+2025-02-01 00:45:18,242 - __main__ - ERROR - Error processing file: [Errno 2] No such file or directory: 'sample_portfolio.csv'
+2025-02-01 00:45:27,793 - __main__ - ERROR - Error loading portfolio: [Errno 2] No such file or directory: 'sample_portfolio.csv'
+2025-02-01 00:45:27,794 - __main__ - ERROR - Error processing file: [Errno 2] No such file or directory: 'sample_portfolio.csv'
+2025-02-01 00:47:58,912 - __main__ - ERROR - Error processing file: 'Weight'
+2025-02-01 01:08:45,818 - __main__ - ERROR - Error processing file: Invalid property specified for object of type plotly.graph_objs.Histogram: 'weights'
+
+Did you mean "ids"?
+
+    Valid properties:
+        alignmentgroup
+            Set several traces linked to the same position axis or
+            matching axes to the same alignmentgroup. This controls
+            whether bars compute their positional range dependently
+            or independently.
+        autobinx
+            Obsolete: since v1.42 each bin attribute is auto-
+            determined separately and `autobinx` is not needed.
+            However, we accept `autobinx: true` or `false` and will
+            update `xbins` accordingly before deleting `autobinx`
+            from the trace.
+        autobiny
+            Obsolete: since v1.42 each bin attribute is auto-
+            determined separately and `autobiny` is not needed.
+            However, we accept `autobiny: true` or `false` and will
+            update `ybins` accordingly before deleting `autobiny`
+            from the trace.
+        bingroup
+            Set a group of histogram traces which will have
+            compatible bin settings. Note that traces on the same
+            subplot and with the same "orientation" under `barmode`
+            "stack", "relative" and "group" are forced into the
+            same bingroup, Using `bingroup`, traces under `barmode`
+            "overlay" and on different axes (of the same axis type)
+            can have compatible bin settings. Note that histogram
+            and histogram2d* trace can share the same `bingroup`
+        cliponaxis
+            Determines whether the text nodes are clipped about the
+            subplot axes. To show the text nodes above axis lines
+            and tick labels, make sure to set `xaxis.layer` and
+            `yaxis.layer` to *below traces*.
+        constraintext
+            Constrain the size of text inside or outside a bar to
+            be no larger than the bar itself.
+        cumulative
+            :class:`plotly.graph_objects.histogram.Cumulative`
+            instance or dict with compatible properties
+        customdata
+            Assigns extra data each datum. This may be useful when
+            listening to hover, click and selection events. Note
+            that, "scatter" traces also appends customdata items in
+            the markers DOM elements
+        customdatasrc
+            Sets the source reference on Chart Studio Cloud for
+            `customdata`.
+        error_x
+            :class:`plotly.graph_objects.histogram.ErrorX` instance
+            or dict with compatible properties
+        error_y
+            :class:`plotly.graph_objects.histogram.ErrorY` instance
+            or dict with compatible properties
+        histfunc
+            Specifies the binning function used for this histogram
+            trace. If "count", the histogram values are computed by
+            counting the number of values lying inside each bin. If
+            "sum", "avg", "min", "max", the histogram values are
+            computed using the sum, the average, the minimum or the
+            maximum of the values lying inside each bin
+            respectively.
+        histnorm
+            Specifies the type of normalization used for this
+            histogram trace. If "", the span of each bar
+            corresponds to the number of occurrences (i.e. the
+            number of data points lying inside the bins). If
+            "percent" / "probability", the span of each bar
+            corresponds to the percentage / fraction of occurrences
+            with respect to the total number of sample points
+            (here, the sum of all bin HEIGHTS equals 100% / 1). If
+            "density", the span of each bar corresponds to the
+            number of occurrences in a bin divided by the size of
+            the bin interval (here, the sum of all bin AREAS equals
+            the total number of sample points). If *probability
+            density*, the area of each bar corresponds to the
+            probability that an event will fall into the
+            corresponding bin (here, the sum of all bin AREAS
+            equals 1).
+        hoverinfo
+            Determines which trace information appear on hover. If
+            `none` or `skip` are set, no information is displayed
+            upon hovering. But, if `none` is set, click and hover
+            events are still fired.
+        hoverinfosrc
+            Sets the source reference on Chart Studio Cloud for
+            `hoverinfo`.
+        hoverlabel
+            :class:`plotly.graph_objects.histogram.Hoverlabel`
+            instance or dict with compatible properties
+        hovertemplate
+            Template string used for rendering the information that
+            appear on hover box. Note that this will override
+            `hoverinfo`. Variables are inserted using %{variable},
+            for example "y: %{y}" as well as %{xother}, {%_xother},
+            {%_xother_}, {%xother_}. When showing info for several
+            points, "xother" will be added to those with different
+            x positions from the first point. An underscore before
+            or after "(x|y)other" will add a space on that side,
+            only when this field is shown. Numbers are formatted
+            using d3-format's syntax %{variable:d3-format}, for
+            example "Price: %{y:$.2f}".
+            https://github.com/d3/d3-format/tree/v1.4.5#d3-format
+            for details on the formatting syntax. Dates are
+            formatted using d3-time-format's syntax
+            %{variable|d3-time-format}, for example "Day:
+            %{2019-01-01|%A}". https://github.com/d3/d3-time-
+            format/tree/v2.2.3#locale_format for details on the
+            date formatting syntax. The variables available in
+            `hovertemplate` are the ones emitted as event data
+            described at this link
+            https://plotly.com/javascript/plotlyjs-events/#event-
+            data. Additionally, every attributes that can be
+            specified per-point (the ones that are `arrayOk: true`)
+            are available. Finally, the template string has access
+            to variable `binNumber` Anything contained in tag
+            `<extra>` is displayed in the secondary box, for
+            example "<extra>{fullData.name}</extra>". To hide the
+            secondary box completely, use an empty tag
+            `<extra></extra>`.
+        hovertemplatesrc
+            Sets the source reference on Chart Studio Cloud for
+            `hovertemplate`.
+        hovertext
+            Same as `text`.
+        hovertextsrc
+            Sets the source reference on Chart Studio Cloud for
+            `hovertext`.
+        ids
+            Assigns id labels to each datum. These ids for object
+            constancy of data points during animation. Should be an
+            array of strings, not numbers or any other type.
+        idssrc
+            Sets the source reference on Chart Studio Cloud for
+            `ids`.
+        insidetextanchor
+            Determines if texts are kept at center or start/end
+            points in `textposition` "inside" mode.
+        insidetextfont
+            Sets the font used for `text` lying inside the bar.
+        legend
+            Sets the reference to a legend to show this trace in.
+            References to these legends are "legend", "legend2",
+            "legend3", etc. Settings for these legends are set in
+            the layout, under `layout.legend`, `layout.legend2`,
+            etc.
+        legendgroup
+            Sets the legend group for this trace. Traces and shapes
+            part of the same legend group hide/show at the same
+            time when toggling legend items.
+        legendgrouptitle
+            :class:`plotly.graph_objects.histogram.Legendgrouptitle
+            ` instance or dict with compatible properties
+        legendrank
+            Sets the legend rank for this trace. Items and groups
+            with smaller ranks are presented on top/left side while
+            with "reversed" `legend.traceorder` they are on
+            bottom/right side. The default legendrank is 1000, so
+            that you can use ranks less than 1000 to place certain
+            items before all unranked items, and ranks greater than
+            1000 to go after all unranked items. When having
+            unranked or equal rank items shapes would be displayed
+            after traces i.e. according to their order in data and
+            layout.
+        legendwidth
+            Sets the width (in px or fraction) of the legend for
+            this trace.
+        marker
+            :class:`plotly.graph_objects.histogram.Marker` instance
+            or dict with compatible properties
+        meta
+            Assigns extra meta information associated with this
+            trace that can be used in various text attributes.
+            Attributes such as trace `name`, graph, axis and
+            colorbar `title.text`, annotation `text`
+            `rangeselector`, `updatemenues` and `sliders` `label`
+            text all support `meta`. To access the trace `meta`
+            values in an attribute in the same trace, simply use
+            `%{meta[i]}` where `i` is the index or key of the
+            `meta` item in question. To access trace `meta` in
+            layout attributes, use `%{data[n[.meta[i]}` where `i`
+            is the index or key of the `meta` and `n` is the trace
+            index.
+        metasrc
+            Sets the source reference on Chart Studio Cloud for
+            `meta`.
+        name
+            Sets the trace name. The trace name appears as the
+            legend item and on hover.
+        nbinsx
+            Specifies the maximum number of desired bins. This
+            value will be used in an algorithm that will decide the
+            optimal bin size such that the histogram best
+            visualizes the distribution of the data. Ignored if
+            `xbins.size` is provided.
+        nbinsy
+            Specifies the maximum number of desired bins. This
+            value will be used in an algorithm that will decide the
+            optimal bin size such that the histogram best
+            visualizes the distribution of the data. Ignored if
+            `ybins.size` is provided.
+        offsetgroup
+            Set several traces linked to the same position axis or
+            matching axes to the same offsetgroup where bars of the
+            same position coordinate will line up.
+        opacity
+            Sets the opacity of the trace.
+        orientation
+            Sets the orientation of the bars. With "v" ("h"), the
+            value of the each bar spans along the vertical
+            (horizontal).
+        outsidetextfont
+            Sets the font used for `text` lying outside the bar.
+        selected
+            :class:`plotly.graph_objects.histogram.Selected`
+            instance or dict with compatible properties
+        selectedpoints
+            Array containing integer indices of selected points.
+            Has an effect only for traces that support selections.
+            Note that an empty array means an empty selection where
+            the `unselected` are turned on for all points, whereas,
+            any other non-array values means no selection all where
+            the `selected` and `unselected` styles have no effect.
+        showlegend
+            Determines whether or not an item corresponding to this
+            trace is shown in the legend.
+        stream
+            :class:`plotly.graph_objects.histogram.Stream` instance
+            or dict with compatible properties
+        text
+            Sets hover text elements associated with each bar. If a
+            single string, the same string appears over all bars.
+            If an array of string, the items are mapped in order to
+            the this trace's coordinates.
+        textangle
+            Sets the angle of the tick labels with respect to the
+            bar. For example, a `tickangle` of -90 draws the tick
+            labels vertically. With "auto" the texts may
+            automatically be rotated to fit with the maximum size
+            in bars.
+        textfont
+            Sets the text font.
+        textposition
+            Specifies the location of the `text`. "inside"
+            positions `text` inside, next to the bar end (rotated
+            and scaled if needed). "outside" positions `text`
+            outside, next to the bar end (scaled if needed), unless
+            there is another bar stacked on this one, then the text
+            gets pushed inside. "auto" tries to position `text`
+            inside the bar, but if the bar is too small and no bar
+            is stacked on this one the text is moved outside. If
+            "none", no text appears.
+        textsrc
+            Sets the source reference on Chart Studio Cloud for
+            `text`.
+        texttemplate
+            Template string used for rendering the information text
+            that appear on points. Note that this will override
+            `textinfo`. Variables are inserted using %{variable},
+            for example "y: %{y}". Numbers are formatted using
+            d3-format's syntax %{variable:d3-format}, for example
+            "Price: %{y:$.2f}".
+            https://github.com/d3/d3-format/tree/v1.4.5#d3-format
+            for details on the formatting syntax. Dates are
+            formatted using d3-time-format's syntax
+            %{variable|d3-time-format}, for example "Day:
+            %{2019-01-01|%A}". https://github.com/d3/d3-time-
+            format/tree/v2.2.3#locale_format for details on the
+            date formatting syntax. Every attributes that can be
+            specified per-point (the ones that are `arrayOk: true`)
+            are available. Finally, the template string has access
+            to variables `label` and `value`.
+        uid
+            Assign an id to this trace, Use this to provide object
+            constancy between traces during animations and
+            transitions.
+        uirevision
+            Controls persistence of some user-driven changes to the
+            trace: `constraintrange` in `parcoords` traces, as well
+            as some `editable: true` modifications such as `name`
+            and `colorbar.title`. Defaults to `layout.uirevision`.
+            Note that other user-driven trace attribute changes are
+            controlled by `layout` attributes: `trace.visible` is
+            controlled by `layout.legend.uirevision`,
+            `selectedpoints` is controlled by
+            `layout.selectionrevision`, and `colorbar.(x|y)`
+            (accessible with `config: {editable: true}`) is
+            controlled by `layout.editrevision`. Trace changes are
+            tracked by `uid`, which only falls back on trace index
+            if no `uid` is provided. So if your app can add/remove
+            traces before the end of the `data` array, such that
+            the same trace has a different index, you can still
+            preserve user-driven changes if you give each trace a
+            `uid` that stays with it as it moves.
+        unselected
+            :class:`plotly.graph_objects.histogram.Unselected`
+            instance or dict with compatible properties
+        visible
+            Determines whether or not this trace is visible. If
+            "legendonly", the trace is not drawn, but can appear as
+            a legend item (provided that the legend itself is
+            visible).
+        x
+            Sets the sample data to be binned on the x axis.
+        xaxis
+            Sets a reference between this trace's x coordinates and
+            a 2D cartesian x axis. If "x" (the default value), the
+            x coordinates refer to `layout.xaxis`. If "x2", the x
+            coordinates refer to `layout.xaxis2`, and so on.
+        xbins
+            :class:`plotly.graph_objects.histogram.XBins` instance
+            or dict with compatible properties
+        xcalendar
+            Sets the calendar system to use with `x` date data.
+        xhoverformat
+            Sets the hover text formatting rulefor `x`  using d3
+            formatting mini-languages which are very similar to
+            those in Python. For numbers, see:
+            https://github.com/d3/d3-format/tree/v1.4.5#d3-format.
+            And for dates see: https://github.com/d3/d3-time-
+            format/tree/v2.2.3#locale_format. We add two items to
+            d3's date formatter: "%h" for half of the year as a
+            decimal number as well as "%{n}f" for fractional
+            seconds with n digits. For example, *2016-10-13
+            09:15:23.456* with tickformat "%H~%M~%S.%2f" would
+            display *09~15~23.46*By default the values are
+            formatted using `xaxis.hoverformat`.
+        xsrc
+            Sets the source reference on Chart Studio Cloud for
+            `x`.
+        y
+            Sets the sample data to be binned on the y axis.
+        yaxis
+            Sets a reference between this trace's y coordinates and
+            a 2D cartesian y axis. If "y" (the default value), the
+            y coordinates refer to `layout.yaxis`. If "y2", the y
+            coordinates refer to `layout.yaxis2`, and so on.
+        ybins
+            :class:`plotly.graph_objects.histogram.YBins` instance
+            or dict with compatible properties
+        ycalendar
+            Sets the calendar system to use with `y` date data.
+        yhoverformat
+            Sets the hover text formatting rulefor `y`  using d3
+            formatting mini-languages which are very similar to
+            those in Python. For numbers, see:
+            https://github.com/d3/d3-format/tree/v1.4.5#d3-format.
+            And for dates see: https://github.com/d3/d3-time-
+            format/tree/v2.2.3#locale_format. We add two items to
+            d3's date formatter: "%h" for half of the year as a
+            decimal number as well as "%{n}f" for fractional
+            seconds with n digits. For example, *2016-10-13
+            09:15:23.456* with tickformat "%H~%M~%S.%2f" would
+            display *09~15~23.46*By default the values are
+            formatted using `yaxis.hoverformat`.
+        ysrc
+            Sets the source reference on Chart Studio Cloud for
+            `y`.
+        zorder
+            Sets the layer on which this trace is displayed,
+            relative to other SVG traces on the same subplot. SVG
+            traces with higher `zorder` appear in front of those
+            with lower `zorder`.
+        
+Did you mean "ids"?
+
+Bad property path:
+weights
+^^^^^^^
+2025-02-01 01:21:02,169 - root - INFO - Loading sample universe
+2025-02-01 01:21:02,179 - root - INFO - Loading bond universe from file: C:\Users\nidal\PycharmProjects\BondSuite\data\sample_universe_expanded.csv
+2025-02-01 01:21:02,183 - root - INFO - Successfully loaded 51 rows from file
+2025-02-01 01:21:02,206 - root - INFO - Successfully created 51 bond objects

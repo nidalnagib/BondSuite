@@ -1,0 +1,52 @@
+ISIN,CleanPrice,YTM,ModifiedDuration,MaturityDate,CouponRate,CouponFrequency,CreditRating,MinPiece,IncrementSize,Currency,DayCountConvention,Issuer,Sector,Country,PaymentRank
+US912828ZQ64,98.5,0.045,2.8,2026-12-31,0.0425,2,AAA,100000,1000,USD,30/360,US Treasury,Government,United States,Senior Secured
+US912828ZR48,97.2,0.048,4.2,2028-06-30,0.0400,2,AAA,100000,1000,USD,30/360,US Treasury,Government,United States,Senior Secured
+US912828ZS21,96.8,0.052,6.5,2030-09-30,0.0450,2,AAA,100000,1000,USD,30/360,US Treasury,Government,United States,Senior Secured
+DE0001102580,99.1,0.043,2.5,2026-09-15,0.0400,2,AAA,100000,1000,USD,30/360,German Government,Government,Germany,Subordinated
+CH0002594772,98.8,0.044,3.2,2027-03-31,0.0425,2,AAA,100000,1000,USD,30/360,Swiss Government,Government,Switzerland,Senior Secured
+DE000DB2KFE3,99.8,0.042,1.5,2025-03-15,0.0400,2,AA+,100000,1000,USD,30/360,Deutsche Bank,Banking,Germany,Senior Unsecured
+US0378331AA3,99.6,0.039,2.1,2026-06-30,0.0375,2,AA+,100000,1000,USD,30/360,Apple,Technology,United States,Senior Unsecured
+US5949181AA6,99.4,0.041,2.8,2027-12-15,0.0400,2,AA+,100000,1000,USD,30/360,Microsoft,Technology,United States,Subordinated
+FR0013416716,99.2,0.043,3.5,2028-09-30,0.0425,2,AA+,100000,1000,USD,30/360,Total SE,Energy,France,Senior Unsecured
+FR0123456789,99.2,0.040,1.8,2025-06-30,0.0375,2,AA,100000,1000,USD,30/360,BNP Paribas,Banking,France,Senior Unsecured
+CH0014852781,99.0,0.042,2.4,2026-12-31,0.0400,2,AA,100000,1000,USD,30/360,Nestle,Consumer Staples,Switzerland,Junior Subordinated
+NL0000113389,98.8,0.044,3.1,2028-03-15,0.0425,2,AA,100000,1000,USD,30/360,Shell,Energy,Netherlands,Senior Unsecured
+GB0123456789,99.4,0.041,1.6,2025-03-31,0.0400,2,AA-,100000,1000,USD,30/360,HSBC,Banking,United Kingdom,Senior Unsecured
+US7427181AA1,99.2,0.043,2.2,2026-09-30,0.0425,2,AA-,100000,1000,USD,30/360,Procter & Gamble,Consumer Staples,United States,Senior Unsecured
+FR0000131104,99.0,0.045,2.9,2027-12-15,0.0450,2,AA-,100000,1000,USD,30/360,BNP Paribas,Banking,France,Senior Unsecured
+US0123456789,99.7,0.037,1.3,2024-12-15,0.0350,2,A+,0.01,0.01,USD,30/360,Apple,Technology,United States,Senior Unsecured
+DE000BAY0017,99.5,0.039,1.9,2025-09-30,0.0375,2,A+,100000,1000,USD,30/360,Bayer,Healthcare,Germany,Senior Unsecured
+GB0007980591,99.3,0.041,2.6,2027-03-15,0.0400,2,A+,0.01,0.01,USD,30/360,BP plc,Energy,United Kingdom,Senior Unsecured
+JP0123456789,99.5,0.039,1.5,2025-03-15,0.0375,2,A,100000,1000,USD,30/360,Mitsubishi UFJ,Banking,Japan,Junior Subordinated
+US46625HJX41,99.3,0.041,2.1,2026-06-30,0.0400,2,A,100000,1000,USD,30/360,JP Morgan Chase,Banking,United States,Senior Unsecured
+FR0000131906,99.1,0.043,2.8,2027-09-15,0.0425,2,A,0.01,0.01,USD,30/360,Renault,Automotive,France,Senior Unsecured
+SE0123456789,99.1,0.043,2.0,2026-03-31,0.0425,2,A-,100000,1000,USD,30/360,Nordea Bank,Banking,Sweden,Senior Unsecured
+ES0113900J37,98.9,0.045,2.7,2027-06-30,0.0450,2,A-,100000,1000,USD,30/360,Banco Santander,Banking,Spain,Senior Unsecured
+IT0000072618,98.7,0.047,3.4,2028-12-15,0.0475,2,A-,100000,1000,USD,30/360,Intesa Sanpaolo,Banking,Italy,Senior Unsecured
+IT0123456789,99.1,0.043,1.9,2025-09-30,0.0425,2,BBB+,100000,1000,USD,30/360,UniCredit,Banking,Italy,Senior Unsecured
+US37045XAB31,98.9,0.045,2.5,2026-12-31,0.0450,2,BBB+,100000,1000,USD,30/360,General Motors,Automotive,United States,Senior Unsecured
+ES0144580Y14,98.7,0.047,3.2,2028-03-15,0.0475,2,BBB+,100000,1000,USD,30/360,Iberdrola,Utilities,Spain,Senior Unsecured
+ES0123456789,98.9,0.044,2.1,2026-03-31,0.0425,2,BBB,100000,1000,USD,30/360,Santander,Banking,Spain,Junior Subordinated
+IT0003128367,98.7,0.046,2.8,2027-09-30,0.0450,2,BBB,100000,1000,USD,30/360,Enel,Utilities,Italy,Senior Unsecured
+US4581401AA1,98.5,0.048,3.5,2028-12-15,0.0475,2,BBB,100000,1000,USD,30/360,Intel,Technology,United States,Senior Unsecured
+BE0123456789,98.8,0.046,2.3,2026-12-15,0.0450,2,BBB-,100000,1000,USD,30/360,KBC Group,Banking,Belgium,Senior Unsecured
+US35671DAU90,98.6,0.048,3.0,2028-03-31,0.0475,2,BBB-,100000,1000,USD,30/360,Freeport-McMoRan,Materials,United States,Senior Unsecured
+IT0003856405,98.4,0.050,3.7,2029-06-30,0.0500,2,BBB-,100000,1000,USD,30/360,Telecom Italia,Telecommunications,Italy,Senior Unsecured
+BR0123456789,97.5,0.065,2.5,2027-03-15,0.0600,2,BB+,100000,1000,USD,30/360,Petrobras,Energy,Brazil,Senior Unsecured
+MX0123456789,97.2,0.068,3.1,2028-06-30,0.0625,2,BB+,100000,1000,USD,30/360,Pemex,Energy,Mexico,Junior Subordinated
+ZA0123456788,96.9,0.071,3.8,2029-09-15,0.0650,2,BB+,100000,1000,USD,30/360,Sasol,Energy,South Africa,Senior Unsecured
+TR0123456789,96.8,0.075,2.7,2027-06-30,0.0700,2,BB,100000,1000,USD,30/360,Turk Telekom,Telecommunications,Turkey,Senior Unsecured
+BR0123456790,96.5,0.078,3.4,2028-09-30,0.0725,2,BB,100000,1000,USD,30/360,Vale,Materials,Brazil,Senior Unsecured
+ID0123456788,96.2,0.081,4.1,2029-12-15,0.0750,2,BB,100000,1000,USD,30/360,Bank Mandiri,Banking,Indonesia,Subordinated
+ZA0123456789,96.0,0.085,2.9,2027-09-15,0.0800,2,BB-,100000,1000,USD,30/360,MTN Group,Telecommunications,South Africa,Senior Unsecured
+TR0123456790,95.7,0.088,3.6,2028-12-31,0.0825,2,BB-,100000,1000,USD,30/360,Turk Hava Yollari,Airlines,Turkey,Senior Unsecured
+PH0123456789,95.4,0.091,4.3,2030-03-15,0.0850,2,BB-,100000,1000,USD,30/360,San Miguel,Consumer Staples,Philippines,Senior Unsecured
+ID0123456789,95.0,0.095,3.1,2027-12-31,0.0900,2,B+,100000,1000,USD,30/360,Pertamina,Energy,Indonesia,Senior Unsecured
+VN0123456789,94.0,0.105,3.3,2028-03-15,0.1000,2,B,100000,1000,USD,30/360,Vingroup,Real Estate,Vietnam,Junior Subordinated
+PK0123456789,93.0,0.115,3.5,2028-06-30,0.1100,2,B-,100000,1000,USD,30/360,OGDC,Energy,Pakistan,Senior Unsecured
+AR0123456789,90.0,0.125,3.7,2028-09-15,0.1200,2,CCC+,100000,1000,USD,30/360,YPF,Energy,Argentina,Senior Unsecured
+VE0123456789,85.0,0.150,3.9,2028-12-31,0.1400,2,CCC,100000,1000,USD,30/360,PDVSA,Energy,Venezuela,Subordinated
+LK0123456789,80.0,0.180,4.1,2029-03-15,0.1600,2,CCC-,100000,1000,USD,30/360,Ceylon Petroleum,Energy,Sri Lanka,Senior Unsecured
+EC0123456789,75.0,0.200,4.3,2029-06-30,0.1800,2,CC,100000,1000,USD,30/360,Petroecuador,Energy,Ecuador,Senior Unsecured
+CD0123456789,70.0,0.250,4.5,2029-09-15,0.2000,2,C,100000,1000,USD,30/360,Gecamines,Mining,DR Congo,Junior Subordinated
+LB0123456789,65.0,0.300,4.7,2029-12-31,0.2200,2,D,100000,1000,USD,30/360,Electricite du Liban,Utilities,Lebanon,Senior Unsecured
