@@ -351,7 +351,7 @@ def plot_credit_analysis(df: pd.DataFrame, bonds: List[Bond]):
         # Rating distribution with three traces (weight, duration contrib, yield contrib)
         rating_weight = df.groupby('Credit Rating')['Weight'].sum() * 100
         rating_duration = df.groupby('Credit Rating')['Contribution to Duration'].sum()
-        rating_yield = df.groupby('Credit Rating')['Contribution to Yield'].sum()
+        rating_yield = df.groupby('Credit Rating')['Contribution to Yield'].sum() * 100
 
         fig = go.Figure()
 
@@ -506,7 +506,7 @@ def plot_composition(df: pd.DataFrame):
         if 'Sector' in df.columns:
             sector_weight = df.groupby('Sector')['Weight'].sum() * 100
             sector_duration = df.groupby('Sector')['Contribution to Duration'].sum()
-            sector_yield = df.groupby('Sector')['Contribution to Yield'].sum()
+            sector_yield = df.groupby('Sector')['Contribution to Yield'].sum() * 100
 
             # Sort all series the same way
             sector_weight = sector_weight.sort_values(ascending=True)
@@ -601,7 +601,7 @@ def plot_composition(df: pd.DataFrame):
         if 'Country' in df.columns:
             country_weight = df.groupby('Country')['Weight'].sum() * 100
             country_duration = df.groupby('Country')['Contribution to Duration'].sum()
-            country_yield = df.groupby('Country')['Contribution to Yield'].sum()
+            country_yield = df.groupby('Country')['Contribution to Yield'].sum() * 100
 
             # Sort all series the same way
             country_weight = country_weight.sort_values(ascending=True)
@@ -696,7 +696,7 @@ def plot_composition(df: pd.DataFrame):
         if 'Payment Rank' in df.columns:
             rank_weight = df.groupby('Payment Rank')['Weight'].sum() * 100
             rank_duration = df.groupby('Payment Rank')['Contribution to Duration'].sum()
-            rank_yield = df.groupby('Payment Rank')['Contribution to Yield'].sum()
+            rank_yield = df.groupby('Payment Rank')['Contribution to Yield'].sum() * 100
 
             # Sort all series the same way
             rank_weight = rank_weight.sort_values(ascending=True)
@@ -794,7 +794,7 @@ def plot_composition(df: pd.DataFrame):
         # Top 10 issuers with toggles
         issuer_weight = df.groupby('Issuer')['Weight'].sum() * 100
         issuer_duration = df.groupby('Issuer')['Contribution to Duration'].sum()
-        issuer_yield = df.groupby('Issuer')['Contribution to Yield'].sum()
+        issuer_yield = df.groupby('Issuer')['Contribution to Yield'].sum() * 100
 
         # Get top 10 by weight and use this order for all metrics
         top_issuers = issuer_weight.nlargest(10).sort_values(ascending=True)
@@ -918,7 +918,7 @@ def plot_composition(df: pd.DataFrame):
         ))
 
         fig.add_trace(go.Bar(
-            x=top_bonds['Contribution to Yield'],
+            x=top_bonds['Contribution to Yield'] * 100,
             y=bond_labels,
             orientation='h',
             name='Yield Contribution',
