@@ -1,15 +1,11 @@
-ISIN,Market Value,Modified Duration,YTM,Credit Rating,Currency,Issuer,Sector,Country,Payment Rank,Maturity Date,Coupon Rate
-FR0014003513,1000000,3.45,0.0325,AA,EUR,BNP Paribas,Financials,France,Senior,2026-05-15,0.0275
-DE000DL19VP0,750000,4.12,0.0342,A+,EUR,Deutsche Bank,Financials,Germany,Senior,2027-02-20,0.0315
-XS2389353181,1250000,5.23,0.0378,BBB+,EUR,Telefonica,Communications,Spain,Senior,2028-09-10,0.0350
-FR0013505559,800000,2.89,0.0315,AA-,EUR,Total SE,Energy,France,Senior,2025-12-05,0.0250
-XS1140860534,900000,3.78,0.0356,A,EUR,Siemens,Industrials,Germany,Senior,2026-09-15,0.0290
-XS2332219612,700000,6.15,0.0412,BBB,EUR,Vodafone,Communications,UK,Senior,2029-04-25,0.0385
-DE000A289QR9,850000,4.56,0.0365,A-,EUR,Allianz,Financials,Germany,Subordinated,2027-07-30,0.0330
-XS2399851901,950000,5.89,0.0395,BBB+,EUR,ENI,Energy,Italy,Senior,2028-11-20,0.0360
-FR0014001YE4,600000,3.25,0.0328,A+,EUR,AXA,Financials,France,Senior,2026-03-10,0.0280
-XS2399981435,700000,4.89,0.0375,A-,EUR,BMW,Consumer Goods,Germany,Senior,2027-10-05,0.0340
-BE0002819002,600000,3.67,0.0345,A,EUR,KBC Group,Financials,Belgium,Senior,2026-06-30,0.0295
-XS2388162385,800000,5.45,0.0388,BBB+,EUR,Enel,Utilities,Italy,Senior,2028-08-15,0.0355
-FR0013517307,500000,2.95,0.0322,AA-,EUR,Air Liquide,Industrials,France,Senior,2025-09-20,0.0260
-XS2399851901,500000,4.78,0.0368,A,EUR,SAP,Technology,Germany,Senior,2027-11-30,0.0335
+ISIN,Market Value,Modified Duration,YTM,Credit Rating,Currency,Issuer,Sector,Country,Payment Rank,Maturity Date,Coupon Rate,Security Name
+FR0014003513,1000000,3.45,0.0325,AA,EUR,BNP Paribas,Financials,France,Senior,2026-05-15,0.0275,BNP Paribas 2.75% 2026
+DE000DL19VP0,750000,4.12,0.0342,A+,EUR,Deutsche Bank,Financials,Germany,Senior,2027-02-20,0.0315,Deutsche Bank 3.15% 2027
+XS2389353181,1250000,5.23,0.0378,BBB+,EUR,Telefonica,Communications,Spain,Senior,2028-09-10,0.0350,Telefonica 3.50% 2028
+FR0013505559,800000,2.89,0.0315,AA-,EUR,Total SE,Energy,France,Senior,2025-12-05,0.0250,Total SE 2.50% 2025
+XS1140860534,900000,3.78,0.0356,A,EUR,Siemens,Industrials,Germany,Senior,2026-09-15,0.0290,Siemens 2.90% 2026
+XS2332219612,700000,6.15,0.0412,BBB,EUR,Vodafone,Communications,UK,Senior,2029-04-25,0.0385,Vodafone 3.85% 2029
+DE000A289QR9,850000,4.56,0.0365,A-,EUR,Allianz,Financials,Germany,Subordinated,2027-07-30,0.0330,Allianz 3.30% 2027
+XS2399851901,950000,5.89,0.0395,BBB+,EUR,ENI,Energy,Italy,Senior,2028-11-20,0.0360,ENI 3.60% 2028
+FR0014001YE4,600000,3.25,0.0328,A+,EUR,AXA,Financials,France,Senior,2026-03-10,0.0280,AXA 2.80% 2026
+XS2399981435,700000,4.89,0.0375,A-,EUR,BMW,Consumer Discretionary,Germany,Senior,2028-02-15,0.0340,BMW 3.40% 2028

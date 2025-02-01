@@ -160,7 +160,7 @@ def plot_risk_metrics(df: pd.DataFrame, bonds: List[Bond]):
             y='YTM',
             size='Market Value',
             color='Credit Rating',
-            hover_data=['ISIN', 'Issuer', 'Sector'],
+            hover_data=['ISIN', 'Security Name', 'Sector'],
             title="Risk-Return Profile",
             labels={
                 'Modified Duration': 'Modified Duration (years)',
@@ -373,6 +373,7 @@ def plot_credit_analysis(df: pd.DataFrame, bonds: List[Bond]):
 
 def plot_composition(df: pd.DataFrame):
     """Enhanced portfolio composition analysis"""
+    st.subheader("Portfolio Breakdowns")
     cols = st.columns(3)  # Changed to 3 columns for Payment Rank
     
     with cols[0]:
@@ -455,6 +456,145 @@ def plot_composition(df: pd.DataFrame):
                 margin=dict(l=20, r=20, t=40, b=20)
             )
             st.plotly_chart(fig, use_container_width=True)
+    
+    # Add Top 10 Issuers and Bonds
+    st.subheader("Top Holdings")
+    cols2 = st.columns(2)
+    
+    with cols2[0]:
+        # Top 10 issuers
+        issuer_weights = df.groupby('Issuer')['Weight'].sum() * 100
+        top_issuers = issuer_weights.nlargest(10).sort_values(ascending=True)
+        
+        fig = go.Figure(data=[
+            go.Bar(
+                x=top_issuers.values,
+                y=top_issuers.index,
+                orientation='h',
+                text=[f'{x:.1f}%' for x in top_issuers.values],
+                textposition='auto',
+            )
+        ])
+        
+        fig.update_layout(
+            title="Top 10 Issuers",
+            xaxis_title="Weight (%)",
+            yaxis_title="Issuer",
+            height=400,
+            xaxis=dict(ticksuffix='%'),
+            yaxis={'categoryorder': 'total ascending'},
+            margin=dict(l=20, r=20, t=40, b=20)
+        )
+        st.plotly_chart(fig, use_container_width=True)
+    
+    with cols2[1]:
+        # Top 10 bonds with enhanced labels
+        top_bonds = df.nlargest(10, 'Weight').sort_values('Weight', ascending=True)
+        
+        # Create formatted labels with Issuer, Coupon, and Maturity
+        bond_labels = [f"{row['Security Name']}" for _, row in top_bonds.iterrows()]
+        
+        fig = go.Figure(data=[
+            go.Bar(
+                x=top_bonds['Weight'] * 100,
+                y=bond_labels,
+                orientation='h',
+                text=[f'{x:.1f}%' for x in (top_bonds['Weight'] * 100)],
+                textposition='auto',
+                hovertemplate='%{y}<br>Weight: %{x:.1f}%<br>ISIN: %{customdata}<extra></extra>',
+                customdata=top_bonds['ISIN']
+            )
+        ])
+        
+        fig.update_layout(
+            title="Top 10 Positions",
+            xaxis_title="Weight (%)",
+            yaxis_title="Security",
+            height=400,
+            xaxis=dict(ticksuffix='%'),
+            yaxis={'categoryorder': 'total ascending'},
+            margin=dict(l=20, r=20, t=40, b=20)
+        )
+        st.plotly_chart(fig, use_container_width=True)
+
+def display_portfolio_holdings(df: pd.DataFrame):
+    """Display portfolio holdings with enhanced metrics"""
+    # Calculate portfolio total market value
+    total_market_value = df['Market Value'].sum()
+    
+    # Calculate contribution metrics
+    df['Weight'] = df['Market Value'] / total_market_value
+    df['Contribution to Duration'] = df['Weight'] * df['Modified Duration']
+    df['Contribution to Yield'] = df['Weight'] * df['YTM']
+    
+    # Format YTM and Coupon Rate as percentages
+    df['YTM'] = df['YTM'] * 100
+    df['Coupon Rate'] = df['Coupon Rate'] * 100
+    
+    # Select and reorder columns for display
+    display_df = df[[
+        'Security Name',
+        'ISIN',
+        'Market Value',
+        'Weight',
+        'Modified Duration',
+        'Contribution to Duration',
+        'YTM',
+        'Contribution to Yield',
+        'Coupon Rate',
+        'Credit Rating',
+        'Sector',
+        'Country',
+        'Payment Rank',
+        'Maturity Date'
+    ]].copy()
+    
+    # Format columns
+    display_df['Weight'] = display_df['Weight'].map('{:.2%}'.format)
+    display_df['YTM'] = display_df['YTM'].map('{:.2f}%'.format)
+    display_df['Coupon Rate'] = display_df['Coupon Rate'].map('{:.2f}%'.format)
+    display_df['Modified Duration'] = display_df['Modified Duration'].map('{:.2f}'.format)
+    display_df['Contribution to Duration'] = display_df['Contribution to Duration'].map('{:.3f}'.format)
+    display_df['Contribution to Yield'] = display_df['Contribution to Yield'].map('{:.3%}'.format)
+    display_df['Market Value'] = display_df['Market Value'].map('{:,.0f}'.format)
+    display_df['Maturity Date'] = pd.to_datetime(display_df['Maturity Date']).dt.strftime('%Y-%m-%d')
+    
+    # Rename columns for display
+    display_df.columns = [
+        'Security Name',
+        'ISIN',
+        'Market Value',
+        'Weight',
+        'Mod. Duration',
+        'Contrib. Duration',
+        'YTM',
+        'Contrib. Yield',
+        'Coupon',
+        'Rating',
+        'Sector',
+        'Country',
+        'Payment Rank',
+        'Maturity'
+    ]
+    
+    st.dataframe(
+        display_df,
+        column_config={
+            "Security Name": st.column_config.TextColumn(
+                "Security Name",
+                width="large",
+            ),
+            "ISIN": st.column_config.TextColumn(
+                "ISIN",
+                width="medium",
+            ),
+            "Market Value": st.column_config.TextColumn(
+                "Market Value",
+                width="medium",
+            ),
+        },
+        hide_index=True,
+    )
 
 def main():
     """Main function for the Portfolio Analysis application"""
@@ -510,36 +650,7 @@ def main():
                     st.metric("Largest Sector %", f"{metrics['Largest Sector %']:.1f}%")
 
             st.header("Portfolio Holdings")
-            # Enhanced holdings view with sorting and filtering
-            holdings_df = pd.DataFrame([{
-                'ISIN': bond.isin,
-                'Issuer': bond.issuer,
-                'Sector': bond.sector,
-                'Country': bond.country,
-                'Rating': bond.credit_rating.display(),
-                'Market Value': df.loc[i, 'Market Value'],
-                'Weight': df.loc[i, 'Weight'],
-                'YTM': bond.ytm,
-                'Modified Duration': bond.modified_duration,
-                'Maturity Date': bond.maturity_date.strftime('%Y-%m-%d')
-            } for i, bond in enumerate(bonds)])
-            
-            # Format columns
-            holdings_df['Market Value'] = holdings_df['Market Value'].map('${:,.2f}'.format)
-            holdings_df['Weight'] = holdings_df['Weight'].map('{:.2%}'.format)
-            holdings_df['YTM'] = holdings_df['YTM'].map('{:.2%}'.format)
-            holdings_df['Modified Duration'] = holdings_df['Modified Duration'].map('{:.2f}'.format)
-            
-            st.dataframe(
-                holdings_df,
-                hide_index=True,
-                column_config={
-                    'ISIN': st.column_config.TextColumn('ISIN', width='medium'),
-                    'Market Value': st.column_config.TextColumn('Market Value', width='medium'),
-                    'Weight': st.column_config.TextColumn('Weight', width='small'),
-                    'Rating': st.column_config.TextColumn('Rating', width='small'),
-                }
-            )
+            display_portfolio_holdings(df)
 
         with tabs[1]:
             st.header("Risk Analysis")

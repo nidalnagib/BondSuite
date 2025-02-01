@@ -875,3 +875,87 @@ weights
 2025-02-01 01:21:02,179 - root - INFO - Loading bond universe from file: C:\Users\nidal\PycharmProjects\BondSuite\data\sample_universe_expanded.csv
 2025-02-01 01:21:02,183 - root - INFO - Successfully loaded 51 rows from file
 2025-02-01 01:21:02,206 - root - INFO - Successfully created 51 bond objects
+2025-02-01 01:47:09,164 - __main__ - ERROR - Error processing file: 'Styler' object has no attribute 'hide_index'
+2025-02-01 01:49:08,836 - __main__ - ERROR - Error processing file: 'int' object has no attribute 'map'
+2025-02-01 01:51:32,738 - __main__ - ERROR - Error converting bond FR0014003513: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'FR0014003513', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:51:32,740 - __main__ - ERROR - Error converting bond DE000DL19VP0: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'DE000DL19VP0', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:51:32,740 - __main__ - ERROR - Error converting bond XS2389353181: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'XS2389353181', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:51:32,741 - __main__ - ERROR - Error converting bond FR0013505559: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'FR0013505559', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:51:32,741 - __main__ - ERROR - Error converting bond XS1140860534: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'XS1140860534', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:51:32,742 - __main__ - ERROR - Error converting bond XS2332219612: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'XS2332219612', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:51:32,742 - __main__ - ERROR - Error converting bond DE000A289QR9: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'DE000A289QR9', ...t_rank': 'Subordinated'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:51:32,743 - __main__ - ERROR - Error converting bond XS2399851901: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'XS2399851901', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:51:32,743 - __main__ - ERROR - Error converting bond FR0014001YE4: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'FR0014001YE4', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:51:32,744 - __main__ - ERROR - Error converting bond XS2399981435: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'XS2399981435', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:51:32,745 - __main__ - ERROR - Error processing file: Axis must be specified when shapes of a and weights differ.
+2025-02-01 01:52:48,673 - __main__ - ERROR - Error converting bond FR0014003513: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'FR0014003513', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:52:48,674 - __main__ - ERROR - Error converting bond DE000DL19VP0: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'DE000DL19VP0', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:52:48,675 - __main__ - ERROR - Error converting bond XS2389353181: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'XS2389353181', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:52:48,675 - __main__ - ERROR - Error converting bond FR0013505559: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'FR0013505559', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:52:48,676 - __main__ - ERROR - Error converting bond XS1140860534: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'XS1140860534', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:52:48,676 - __main__ - ERROR - Error converting bond XS2332219612: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'XS2332219612', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:52:48,678 - __main__ - ERROR - Error converting bond DE000A289QR9: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'DE000A289QR9', ...t_rank': 'Subordinated'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:52:48,678 - __main__ - ERROR - Error converting bond XS2399851901: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'XS2399851901', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:52:48,679 - __main__ - ERROR - Error converting bond FR0014001YE4: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'FR0014001YE4', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:52:48,679 - __main__ - ERROR - Error converting bond XS2399981435: 1 validation error for Bond
+security_name
+  Field required [type=missing, input_value={'isin': 'XS2399981435', ...payment_rank': 'Senior'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.10/v/missing
+2025-02-01 01:52:48,681 - __main__ - ERROR - Error processing file: Axis must be specified when shapes of a and weights differ.

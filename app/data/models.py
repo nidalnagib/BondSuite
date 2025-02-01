@@ -119,6 +119,7 @@ class RatingGrade(str, Enum):
 
 
 class Bond(BaseModel):
+    """Bond security model"""
     isin: str
     clean_price: float
     ytm: float
@@ -132,13 +133,25 @@ class Bond(BaseModel):
     currency: str
     day_count_convention: str
     issuer: str
-    country: Optional[str] = None
     sector: Optional[str] = None
+    country: Optional[str] = None
     payment_rank: Optional[str] = None
+    security_name: Optional[str] = None
 
     @property
     def rating_grade(self) -> RatingGrade:
+        """Get the rating grade (Investment Grade or High Yield)"""
         return RatingGrade.from_rating(self.credit_rating)
+
+    def format_security_name(self) -> str:
+        """Format the security name if not provided"""
+        if self.security_name:
+            return self.security_name
+        
+        # Format: Issuer Coupon% Maturity Year
+        coupon_pct = f"{self.coupon_rate * 100:.2f}%"
+        maturity_year = self.maturity_date.year
+        return f"{self.issuer} {coupon_pct} {maturity_year}"
 
 
 class PortfolioConstraints(BaseModel):
